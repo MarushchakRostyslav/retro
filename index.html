@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Retro</title>
+  <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -84,8 +84,18 @@
           <tbody>
             <tr>
               <td></td>
-              <td><img src="./img/bus-blue.png" alt=""></td>
-              <td><img src="./img/bus-yellow.png" alt=""></td>
+              <td>
+                <picture>
+                  <source srcset="./img/bus-blue-mini.png" media="(max-width: 767px)">
+                  <img src="./img/bus-blue.png" alt="">
+                </picture>
+              </td>
+              <td>
+                <picture>
+                  <source srcset="./img/bus-yellow-mini.png" media="(max-width: 767px)">
+                  <img src="./img/bus-yellow.png" alt="">
+                </picture>
+              </td>
             </tr>
             <tr>
               <td>Cтоимость аренды за один час</td>
@@ -372,15 +382,15 @@
         <p class="connection__phone"><a href="tel:0952167315">095 216 73 15</a></p>
         <p class="connection__mail"><a href="mailto:info@prokatlimuzinov.com">info@prokatlimuzinov.com</a></p>
         <div class="connection__media">
-          <div class="media-icon">
+          <a href="#" class="media-icon">
             <img src="./img/footer-item-1.png" alt="">
-          </div>
-          <div class="media-icon">
+          </a>
+          <a href="#" class="media-icon">
             <img src="./img/footer-item-2.png" alt="">
-          </div>
-          <div class="media-icon">
+          </a>
+          <a href="#" class="media-icon">
             <img src="./img/footer-item-3.png" alt="">
-          </div>
+          </a>
         </div>
         <div class="connection__copyright">
           <p class="copyright-text">Проект принадлежит: Компания Prokat Limuzinov</p>
